@@ -5,6 +5,7 @@ cmake_minimum_required(VERSION 3.10)
 project (gpcore)
 
 cmake_policy(SET CMP0146 OLD)
+cmake_policy(SET CMP0072 OLD)
 
 # packages
 find_package(CUDA REQUIRED)
